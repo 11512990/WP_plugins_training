@@ -73,7 +73,7 @@ function ch2pho_settings_menu() {
                     'My Google Analytics', 'manage_options',
                     'ch2pho-my-google-analytics', 'ch2pho_config_page' );
 }
-
+//rendering plugin configuration pages: straight HTML
 function ch2pho_config_page() {
   // Retrieve plugin configuration options from database
   $options = get_option( 'ch2pho_options' );
